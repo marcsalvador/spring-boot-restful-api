@@ -8,6 +8,7 @@ class SearchAndPayApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

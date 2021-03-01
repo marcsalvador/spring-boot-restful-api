@@ -10,4 +10,5 @@ public class SearchAndPayApplication {
 		SpringApplication.run(SearchAndPayApplication.class, args);
 	}
 
+
 }

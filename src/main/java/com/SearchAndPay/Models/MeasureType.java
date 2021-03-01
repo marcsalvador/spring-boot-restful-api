@@ -51,4 +51,5 @@ public class MeasureType {
     public void setUnit(String unit) {
         Unit = unit;
     }
+
 }

@@ -84,4 +84,5 @@ public class Product {
     public void setMeasureTypeId(int measureTypeId) {
         MeasureTypeId = measureTypeId;
     }
+
 }
