@@ -34,24 +34,22 @@ public class ProductController {
         return "Hello";
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value="/products")
     public List<Product> GetProducts()
     {
         return productRepository.findAll();
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value="/categories")
     public List<Category> GetCategories()
     {
         return categoryRepository.findAll();
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value="/measure-types")
     public List<MeasureType> GetMeasureTypes()
     {
         return measureTypeRepository.findAll();
     }
+
 }
